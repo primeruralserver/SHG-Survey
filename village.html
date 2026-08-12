@@ -69,7 +69,16 @@
     font-size:34px; line-height:64px; margin:0 auto 8px; }
   .field-bad { outline:2px solid #a3311f !important; }
   @media (max-width:640px) { body { font-size:15px; } header.doc h1 { font-size:20px; }
-    .scrollhint { display:block; } .sec { padding:12px; } }
+    .scrollhint { display:none; } .sec { padding:12px; }
+    table { min-width:0 !important; table-layout:fixed; }
+    th, td { padding:6px 5px; font-size:13px; word-break:break-word; }
+    thead th { font-size:12px; white-space:normal; }
+    thead th:first-child, tbody th { width:100px; }
+    .rl { min-width:0; max-width:none; }
+    .numin { min-width:0; }
+    .cell-in { min-width:0; }
+    select.cell-in { min-width:0; }
+    .cell-in.area { min-width:0; } }
 </style>
 </head>
 <body>
